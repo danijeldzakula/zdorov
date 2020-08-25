@@ -10,7 +10,7 @@ function checkab() {
   adb_cl.innerHTML = '&times;';
   adb.id = 'turn_advert';
   adb.classList.add('adblock');
-  adb.innerHTML = 'Для корректного отображения сайта отключите, пожалуйста, <br>расширение AdBlock и перезагрузите страницу';
+  adb.innerHTML = 'Da biste pravilno prikazali veb lokaciju, onemogućite AdBlock ekstenziju i ponovo učitajte stranicu';
   document.getElementsByTagName("body")[0].appendChild(adb);
   document.getElementsByClassName('adblock')[0].appendChild(adb_cl);
   ta_close.onclick = function () {
