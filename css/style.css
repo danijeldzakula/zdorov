@@ -608,7 +608,7 @@ form select {
 }
 
 #block5 .arrow {
-    background: url('../img/arrow.png') no-repeat center center;
+    background: url('../img/arrow.png') no-repeat right 16%;
     height: 100%;
     width: 110px;
 }
@@ -949,7 +949,8 @@ form select {
     }
     #block1 {
         background: url('../img/block1_320.jpg') no-repeat center center;
-        height: 1100px;
+        height: 100%;
+        padding-bottom: 20px;
     }
     #block1 .item {
         display: none;
@@ -1171,4 +1172,12 @@ form select {
 
 .price {
     margin-bottom: 20px
+}
+
+.forms-img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    object-fit: contain;    
 }

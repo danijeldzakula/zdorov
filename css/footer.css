@@ -46,7 +46,16 @@
 }
 .fz-small {
     font-size: 15px;
-    padding: 0 15px;
-    font-weight: 500;
+    padding: 15px;
+    font-weight: 600;
 }
+
+.__footer p {
+    line-height: 1.618;
+}
+
+.__footer p:last-child {
+    color: #666;
+}
+
 
